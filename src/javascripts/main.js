@@ -1,5 +1,5 @@
 import loadScreen from './components/loadScreen';
-import domEvents from './helpers/renderToDom';
+import domEvents from './helpers/data/domEvents';
 
 import '../styles/main.scss';
 
