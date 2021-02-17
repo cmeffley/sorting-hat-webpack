@@ -1,5 +1,4 @@
 import renderToDOM from '../helpers/renderToDom';
-// import showForm from './showForm';
 
 const loadScreen = () => {
   const screen = `<div class="jumbotron text-center">
@@ -40,8 +39,7 @@ const loadScreen = () => {
       </div>
     </div>
   </div>`;
-  renderToDOM('#load-screen', screen);
-  // document.querySelector('#start-sorting').addEventListener('click', showForm);
+  renderToDOM('body', screen);
 };
 
 export default loadScreen;
